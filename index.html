@@ -34,6 +34,31 @@
 
   gtag('config', 'G-G1NRH5H2LG');
 </script>
+
+<script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyC34RUpZm8SvJRGQhNr1SGRDymM2kKQHis",
+        authDomain: "clb-b2d1b.firebaseapp.com",
+        databaseURL: "https://clb-b2d1b-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "clb-b2d1b",
+        storageBucket: "clb-b2d1b.firebasestorage.app",
+        messagingSenderId: "611252256088",
+        appId: "1:611252256088:web:bbb2a5ab92229e5411392d",
+        measurementId: "G-6V03720BBT"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+</script>
 <body>
 
     <img id="loadingImage" src="start_page.png" alt="Loading...">
@@ -68,30 +93,6 @@
         loadingImage.style.display = 'none';
         window.location.href = randomUrl;
         
-    </script>
-    <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
-    
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      const firebaseConfig = {
-        apiKey: "AIzaSyC34RUpZm8SvJRGQhNr1SGRDymM2kKQHis",
-        authDomain: "clb-b2d1b.firebaseapp.com",
-        databaseURL: "https://clb-b2d1b-default-rtdb.asia-southeast1.firebasedatabase.app",
-        projectId: "clb-b2d1b",
-        storageBucket: "clb-b2d1b.firebasestorage.app",
-        messagingSenderId: "611252256088",
-        appId: "1:611252256088:web:bbb2a5ab92229e5411392d",
-        measurementId: "G-6V03720BBT"
-      };
-    
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
     </script>
 
 </body>
